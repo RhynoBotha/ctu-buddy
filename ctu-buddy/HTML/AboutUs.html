@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutUs</title>
+    <link rel = "stylesheet" href = "../CSS/Home.css"/>
+    <img style = "color: #FFFDD0;"class="CTU" src = "../Media/CTU Icon-Photoroom.png"/>
+    <img style class = "CTU" src = "./BUDDDYYY-Photoroom.png" width = "150" style="background-color:  white;" height="130"/>
+    
+    <nav>
+        <ul>
+            <li> <a href = "./Home.html">Home</a></li>
+            <li> <a href = "./Timetable.html">Timetable</a></li>
+            <li> <a href = "./Discussion.html">Discussion</a></li>
+            <li> <a href = "./ShareResources.html">Share Resources</a> </li>
+            <li> <a href = "./AboutUs.html">About Us</a></li>
+            <li> <a href = "./ContactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <hr/>
+    </header>
+    <audio controls draggable="true" ><source src = "../Media/Drake - Started From the Bottom-[AudioTrimmer.com].mp3"></audio>
+    <link rel="stylesheet" href="../CSS/AboutUs.css"/>
+    <h1 class = "h1" style="text-align: center;"> About Us</h1>
+    <hr/>
+    <p>CTU Training Solutions, Creative Technology Universitas, and Corporate Training Unlimited. Together, we create a comprehensive ecosystem that caters to the diverse needs of our students and corporate clients, offering hybrid education and training solutions that drive personal and professional growth.</p>
+
+      <p>CTU Training Solutions: Building Skilled Professionals Since 1987.</p>  
+       <p>For over three decades, CTU Training Solutions has been at the forefront of developing skilled professionals across various industries. With faculties spanning IT, Design, Business Management & Humanities, and Engineering & Sustainability, we offer full time and part time study options where you can acquire national qualifications and international vendor-related certifications. As a graduate, you will be well-prepared to excel in the South African job market, equipped with the right skills to thrive from entry-level to professional positions.</p>
+    <hr/>
+</head>
+<body>
+    <h1 style="text-align: center;"> Our Team</h1>
+    <h1><u>Organogram</u></h1>
+      <table class="organogram">
+          <tr>
+              <td class="node" colspan="2">
+                  <img src="../Media/rhynopic.jpg" alt="CEO" class="profile-pic">
+                  <h3>Web Development Specialist (CEO)</h3>
+              </td>
+          </tr>
+          <tr>
+              <td class="node">
+                  <img src="../Media/jeffpic.jpg" alt="Manager 1" class="profile-pic">
+                  <h3>Information Security Analyst (Manager)</h3>
+              </td>
+              <td class="node">
+                  <img src="../Media/cornepic.jpg" alt="Manager 2" class="profile-pic">
+                  <h3>Web Development Specialist (Manager)</h3>
+              </td>
+          </tr>
+  </table>
+  <script>
+    const nodes = document.querySelectorAll('.node');
+    
+    nodes.forEach(node => {
+        node.addEventListener('click', () => {
+            alert(`You clicked ${node.querySelector('h3').textContent}`);
+        });
+    });
+    
+    </script>
+    <h2> Rhyno Botha</h2>
+     <h3>Cyber-Security Specialist</h3>
+    <p> Safeguards digital data from theft, damage or unauthorized access.Prevent the loss of personal, financial or otherwise sensitive information from an organization, restrict viruses and cyberattackers from corrupting or accessing data and ensure the organization's systems are fully operational.</p>
+    <img class = "rhyno" src = "../Media/rhynopic.jpg" width="30%" height="30%"/>
+    <p> Email : rhynobotha39@gmail.com</p>
+    <p> <button class="but1"> Contact</button></p>
+    <hr style="width: 70%;"/>
+    <h2> Corne Carmichael</h2>
+    <h3> Web Development Specialist</h3>
+    <p>Web development is the process of building websites and applications for the internet using programming languages and technologies.
+
+        While some elements of it (such as coding with the language CSS) are concerned with styling the pages, mostly web development is to do with functionality.</p>
+        
+      <p>However, when taking a look at the field of web development itself, it’s necessary to remember just how broad it is. By understanding that that field is a mixed one, you’ll also start to see that what a web developer can do is also varied and depends on a broad range of factors</p>
+      <img src = "../Media/cornepic.jpg" width="30%" height="30%"/>
+      <p> Email : CorneCarmichael02@gmail.com</p>
+      <p> <button class = "but2"> Contact</button></p>
+      <hr style="width: 70%;"/>
+      <h2> Jeffrey Putter</h2>
+      <h3>Information Security Analyst</h3>
+      <p> An Information Security Analyst is a professional responsible for protecting an organization's computer systems and networks from security breaches, cyberattacks, and other malicious activities. Their primary role involves designing, implementing, </p>
+       <p>and monitoring security measures to safeguard sensitive data and ensure the integrity, confidentiality, and availability of information.</p>
+      <img src = "../Media/jeffpic.jpg" width="30%" height="30%"/>
+      <p> Email : jeffreyputter@gmaail.com</p>
+      <p> <button class="but3">Contact</button></p>
+  
+</body>
+<footer>
+  <div class="marquee-container">
+      <marquee class="marquee-text" behavior="scroll" direction="left" scrollamount="8">
+          Welcome to the CTU-Buddy About Us Forum! | Talk about what matters!!
+      </marquee>
+  </div>
+  <p style="text-align: center;">© 2024 CTU. All rights reserved.</p>
+  <div style="color: #F7E7CE; text-align: center;">
+    <a href="./Home.html" style="color: #1ab6a7; margin: 0 10px;">Home</a>
+    <a href="./ShareResources.html" style="color: #1ab6a7; margin: 0 10px;">Shared Resources</a>
+    <a href="./Timetable.html" style="color: #1ab6a7; margin: 0 10px;">Timetable</a>
+    <a href="./Discussion.html" style="color: #1ab6a7; margin: 0 10px;">Discussion</a>
+    <a href="./ContactUs.html" style="color: #1ab6a7; margin: 0 10px;">Contact Us</a>
+    <a href = "./AboutUs.html" style = "color:#1ab6a7 ; margin: 0 10px;">About Us</a>
+    </div>
+</footer>
+  
+</html>

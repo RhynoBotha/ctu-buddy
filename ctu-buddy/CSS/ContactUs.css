@@ -1,0 +1,37 @@
+.contact-form {
+    color: #474787;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: colorChange 30s linear infinite
+}
+header {
+    color: #2c2c54;
+    background-color: #aaabb8;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #4343a2;
+}
+
+
+
+    
+    
+@keyframes colorChange {
+    0% {
+        background-color: rgb(166, 131, 190);
+    }
+    25% {
+        background-color: rgb(219, 219, 146);
+    }
+    50% {
+        background-color: rgb(113, 205, 113);
+    }
+    75% {
+        background-color: rgb(128, 128, 190);
+    }
+    100% {
+        background-color: rgb(194, 118, 118); /* Loop back to the initial color */
+    }
+}

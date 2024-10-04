@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+    <html lang = "en">
+    <header>
+        <head>
+            <title>Student Timetable</title>
+            <link rel = "stylesheet" href = "../FA_1_CWD412/CSS/Home.css"/>
+    <img style = "color: #FFFDD0;"class="CTU" src = "../Media/CTU Icon-Photoroom.png"/>
+    <img style class = "CTU" src = "./BUDDDYYY-Photoroom.png" width = "150" style="background-color:  white;" height="130"/>
+
+    <nav>
+        <ul>
+            <li> <a href = "./Home.html">Home</a></li>
+            <li> <a href = "./Timetable.html">Timetable</a></li>
+            <li> <a href = "./Discussion.html">Discussion</a></li>
+            <li> <a href = "./ShareResources.html">Share Resources</a> </li>
+            <li> <a href = "./AboutUs.html">About Us</a></li>
+            <li> <a href = "./ContactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <hr/>
+    </header>
+            <style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Arial;
+    line-height: 1.8;
+    background-image: url(../Media/CTU\ Icon-Photoroom.png);
+    background-blend-mode: color-burn;
+}
+
+.Buddy-Heading{
+    background: #0077B6;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #AAABB8;
+}
+
+table, th, td {
+    border: 2px solid #595f39;
+}
+
+th, td {
+    padding: 0;
+    text-align: center;
+}
+
+th {
+    background: #CAF0F8;
+}
+
+.Time {
+    background-color: #AAABB8;
+    width: 15%;
+}
+.Theory {
+    background-color: #C4C5BA;
+}
+.Your {
+    text-align: center;
+}
+.GR {
+    background-color: #1B1B1B;
+    color: #fff;
+}
+.Weekly {
+    background-color: #E4E4DE;
+    padding: 15px;
+    text-align: center;
+    color: #1B1B1B;
+    font-size: 20px;
+}
+.CTU {
+    margin : 10px;
+    padding: 0px;
+    width: 150px;
+ }
+ ul {
+    list-style-type: none;
+    margin: 0px;
+    text-align : right ;
+    padding: 0;
+    }
+
+    li a {
+      display: inline-block;
+      color: #2d6a90;
+      padding : 25px 20px  ;
+      text-align: center;
+      text-decoration:none;
+      font-size: medium;
+      font-weight: bold;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  header {
+    background-color: #FFFDD0;
+
+ }
+  li {
+   display:inline-block;
+  }
+
+  li a:hover {
+   background-color: #FFDB58;
+   border-radius: 10px;} 
+   footer {
+    background-color: #3D405B;
+    color: #F4F1DE;
+    text-align: center;
+    padding: 0px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.marquee-container {
+    background-color: #81B29A;
+    padding: 0px;
+    margin: 0 -20px;
+}
+
+.marquee-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3D405B;
+}
+a {
+    text-decoration: none;
+
+}
+a:hover {
+    background-color: #FFDB58;
+    border-radius: 10px;
+    padding : 9px
+} 
+
+
+            </style>
+        </head>
+            <body>
+                <header class = "Buddy-Heading">
+                    <h1>CTU-Buddy Timetable</h1>
+                </header>
+            <main>
+                <table>
+                    <thead>
+                    <th class = "Weekly">
+                        <img src = "../Media/CTU Icon-Photoroom.png" alt = "School Logo" height = "50" width= "50">Your Weekly Timetable</a>
+                    </th>
+                    </thead>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time:</th>
+                            <th>Monday:</th>
+                            <th>Tuesday:</th>
+                            <th>Wednesday:</th>
+                            <th>Thursday:</th>
+                            <th>Friday:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan = "2" class = "Time">8:00 - 9:00</td>
+                            <td>RD412</td>
+                            <td>Rd412</td>
+                            <td>ENA412</td>
+                            <td>ENA412</td>
+                            <td rowspan = "2" class = "GR">GR</td>
+                        </tr>
+                        <tr>
+                            <td class = "Theory">Theory</td>
+                            <td class = "Theory">Theroy</td>
+                            <td class = "Theory">Theroy</td>
+                            <td class = "Theory">Theroy</td>
+                        </tr>
+                        <tr>
+                            <td rowspan = "2" class = "Time">9:00 - 10:00</td>
+                            <td>RD412</td>
+                            <td>RD412</td>
+                            <td>ENA412</td>
+                            <td>ENA412</td>
+                            <td>CF412</td>
+                        </tr>
+                        <tr>
+                            <td class = "Theory">Theory</td>
+                            <td class = "Theory">Theroy</td>
+                            <td class = "Theory">Theroy</td>
+                            <td class = "Theory">Theroy</td>
+                            <td class = "Theory">Theroy</td>
+                        </tr>
+                        <tr>
+                            <td rowspan = "2" class = "Time">10:00 - 11:00</td>
+                            <td>RD412</td>
+                            <td>RD412</td>
+                            <td>ENA412</td>
+                            <td>ENA412</td>
+                            <td>CF412</td>
+                        </tr>
+                        <tr>
+                            <td class = "Theory">Theory</td>
+                            <td class = "Theory">Theroy</td>
+                            <td class = "Theory">Theroy</td>
+                            <td class = "Theory">Theroy</td>
+                            <td class = "Theory">Theroy</td>
+                        </tr>
+                        <tr>
+                            <td rowspan = "2" class = "Time">11:00 - 12:00</td>
+                            <td rowspan = "2" colspan = "2" class = "GR">GR</td>
+                            <td>ENA412</td>
+                            <td>ENA412</td>
+                            <td>CF412</td>
+                        </tr>
+                        <tr>
+                            <td class = "Theory">Theory</td>
+                            <td class = "Theory">Theroy</td>
+                            <td class = "Theory">Theroy</td>
+                        </tr>
+                        <tr>
+                            <td rowspan = "2" class = "Time">12:00 - 13:00</td>
+                            <td rowspan = "2" colspan = "5">Break</td>
+                        </tr>
+                        <tr>
+                        </tr>
+                        <tr>
+                            <td rowspan = "2" class = "Time">13:00 - 14:00</td>
+                            <td>CW412</td>
+                            <td>ENA412</td>
+                            <td>ENA412</td>
+                            <td>FDM412</td>
+                        </tr>
+                        <tr>
+                            <td class = "Theory">Theory</td>
+                            <td class = "Theory">Theroy</td>
+                            <td class = "Theory">Theroy</td>
+                            <td class = "Theory">Theroy</td>
+                        </tr>
+                        <tr>
+                            <td rowspan = "2" class = "Time">14:00 - 15:00</td>
+                            <td>CW412</td>
+                            <td>ENA412</td>
+                            <td>ENA412</td>
+                            <td>FDM412</td>
+                        </tr>
+                        <tr>
+                            <td class = "Theory">Theory</td>
+                            <td class = "Theory">Theroy</td>
+                            <td class = "Theory">Theroy</td>
+                            <td class = "Theory">Theroy</td>
+                        </tr>
+                        <tr>
+                            <td rowspan = "2" class = "Time">15:00 - 16:00</td>
+                            <td>CW412</td>
+                            <td>ENA412</td>
+                            <td>ENA412</td>
+                            <td>FDM412</td>
+                        </tr>
+                        <tr>
+                            <td class = "Theory">Theory</td>
+                            <td class = "Theory">Theroy</td>
+                            <td class = "Theory">Theroy</td>
+                            <td class = "Theory">Theroy</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </main>
+            </body>
+            <footer>
+                <div class="marquee-container">
+                    <marquee class="marquee-text" behavior="scroll" direction="left" scrollamount="8">
+                        Welcome to the CTU-Buddy Time Table Forum! | Talk about what matters!!
+                    </marquee>
+                </div>
+                <p style="text-align: center;">© 2024 CTU. All rights reserved.</p>
+                <div style="color: #F7E7CE; text-align: center;">
+                    <a href="./Home.html" style="color: #1ab6a7; margin: 0 10px;">Home</a>
+                    <a href="./ShareResources.html" style="color: #1ab6a7; margin: 0 10px;">Shared Resources</a>
+                    <a href="./Timetable.html" style="color: #1ab6a7; margin: 0 10px;">Timetable</a>
+                    <a href="./Discussion.html" style="color: #1ab6a7; margin: 0 10px;">Discussion</a>
+                    <a href="./ContactUs.html" style="color: #1ab6a7; margin: 0 10px;">Contact Us</a>
+                    <a href = "./AboutUs.html" style = "color:#1ab6a7 ; margin: 0 10px;">About Us</a>
+                  </div>
+            </footer>
+        </html>

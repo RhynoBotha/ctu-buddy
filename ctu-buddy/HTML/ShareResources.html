@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+    <html lang = "en">
+        <header>
+        <head>
+            <title>Shared Resources</title>
+                    <link rel = "stylesheet" href = "../CSS/Discussion.css"/>
+            <img style = "color: #FFFDD0;"class="CTU" src = "../Media/CTU Icon-Photoroom.png"/>
+            <img style class = "CTU" src = "./BUDDDYYY-Photoroom.png" width = "150" style="background-color:  white;" height="130"/>
+        
+            <nav>
+                <ul>
+                    <li> <a href = "./Home.html">Home</a></li>
+                    <li> <a href = "./Timetable.html">Timetable</a></li>
+                    <li> <a href = "./Discussion.html">Discussion</a></li>
+                    <li> <a href = "./ShareResources.html">Share Resources</a> </li>
+                    <li> <a href = "./AboutUs.html">About Us</a></li>
+                    <li> <a href = "./ContactUs.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <hr/>
+            </header>
+            <style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Arial;
+    line-height: 1.8;
+}
+.Upload {
+    background: #0077B6;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+main {
+    padding: 20px;
+}
+form label {
+    display: block;
+    margin-top: 10px;
+}
+form textarea {
+    width: 100%;
+    padding: 5px;
+}
+button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+}
+h2 {
+    color: #0077B6;
+}
+h3 {
+    text-align: center;
+}
+div#div2 {
+    background-color: lightgrey;
+    width: 950px;
+    border: 8px solid #474787;
+    padding: 10px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #3D405B;
+    color: #F4F1DE;
+    text-align: center;
+    padding: 0px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.marquee-container {
+    background-color: #81B29A;
+    padding: 0px;
+    margin: 0 -20px;
+}
+
+.marquee-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3D405B;
+}
+a {
+    text-decoration: none;
+
+}
+a:hover {
+    background-color: #FFDB58;
+    border-radius: 10px;
+    padding : 9px
+} 
+
+button {
+    background-color: #81B29A;
+    border-width: 10px;
+    padding: 8px;
+    color: #474787;
+    height: 35px;
+    border: 3px solid green;
+}
+
+            </style>
+        </head>
+        <body>
+            <header class = "Upload">
+                <h1>Upload Resources</h1>   
+            </header>
+            <hr>
+            <div id = "div2"><h3>Guide on how to upload your work</h3>
+            <hr>
+            <iframe width="900" height="250" src="../VIDEO-2023-06-06-16-04-36 (1).mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <main>
+                <form name = "ResourceForm" method = "post" action = "../PHP/upload.php" enctype="multipart/form-data">
+                    <h2>Upload a File</h2>
+                    <hr>
+                    <input id = "Ufile" name = "file" type = "file" accept = ".pdf" title = "Only PDF files are allowed!" required>
+
+                    <h2>Category:</h2>
+                    <hr>
+                    <input id = "Ucatrgory" name = "Category" type = "text" placeholder = "e.g. What is the Category" required>
+
+                    <h2>Description:</h2>
+                    <hr>
+                    <textarea id = "description" name = "description" rows = "5" placeholder = "Please enter the discription" required></textarea>
+                    <button id = "uploadButton">Upload</button>
+                </form>
+
+                <section>
+                    <h2>Available Resources</h2>
+                    <hr>
+                    <input type = "text" id = "search" placeholder = "Search resources...">
+                    <h2><u>Downloads</u></h1>
+                        <button id="downloadButton">RD412</button>
+                    <script>
+                        
+                     document.getElementById('uploadButton').addEventListener('click', function() {
+                     const fileInput = document.getElementById('description');
+
+                    const file = fileInput.files[0];
+                    });
+
+                    document.getElementById('downloadButton').addEventListener('click', function() {
+                    const link = document.createElement('a');
+                    link.href = ""
+                    link.download = 'RD412.txt';
+                    document.body.appendChild(link);
+                    link.click();
+                     document.body.removeChild(link);
+                    });
+
+                    </script>
+                </section>
+
+
+            </main>
+        </body>
+        <footer>
+    <div class="marquee-container">
+        <marquee class="marquee-text" behavior="scroll" direction="left" scrollamount="8">
+            Welcome to the CTU-Buddy Discussion Forum! | Talk about what matters!!
+        </marquee>
+    </div>
+    <p style="text-align: center;">Â© 2024 CTU. All rights reserved.</p>
+    <div style="color: #F7E7CE; text-align: center;">
+        <a href="./Home.html" style="color: #1ab6a7; margin: 0 10px;">Home</a>
+        <a href="./ShareResources.html" style="color: #1ab6a7; margin: 0 10px;">Shared Resources</a>
+        <a href="./Timetable.html" style="color: #1ab6a7; margin: 0 10px;">Timetable</a>
+        <a href="./Discussion.html" style="color: #1ab6a7; margin: 0 10px;">Discussion</a>
+        <a href="./ContactUs.html" style="color: #1ab6a7; margin: 0 10px;">Contact Us</a>
+      </div>
+</footer>
+    </html>

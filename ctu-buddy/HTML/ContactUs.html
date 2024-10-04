@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <header>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "../CSS/ContactUs.css" />
+        <link rel = "stylesheet" href = "../CSS/Home.css"/>
+    <img style = "color: #FFFDD0;"class="CTU" src = "../Media/CTU Icon-Photoroom.png"/>
+    <img style="background-color: #FFFDD0;" class = "CTU" src = "./BUDDDYYY-Photoroom.png" width = "150" style="background-color:  white;" height="130"/>
+    
+    <nav>
+        <ul>
+            <li> <a href = "./Home.html">Home</a></li>
+            <li> <a href = "./Timetable.html">Timetable</a></li>
+            <li> <a href = "./Discussion.html">Discussion</a></li>
+            <li> <a href = "./ShareResources.html">Share Resources</a> </li>
+            <li> <a href = "./AboutUs.html">About Us</a></li>
+            <li> <a href = "./ContactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <hr/>
+    </header>
+        <h1> Contact Us</h1>
+    </header>
+</head>
+<body>
+    <form class = "contact-form" action = "subscribe.php">
+        <hr style = "width: 30%" ;/>
+        <label for = "name"> Name : </label>
+        <input type = "text" id = "name" name = "name" required = "required"/>
+        <br/>
+        <hr style = "width: 45%";/>
+        <label for = "em" id = "@mail" required = "required"> Email : </label>
+        <input type = "email" id = "email" name = "mail" required = "required"/>
+        <hr style = "width: 75%;"/>
+        <br/>
+        <label for="number">Mobile Phone : (+27):</label>
+        <input  type="tel"  id="number" name="number" required = "required" pattern = [0-9]{10}
+            title = "Please enter 10 digits">
+            <br>
+            <hr style="width: 68%;">
+
+        <label for="message">Queries:</label>
+        <textarea id="message" name="message" rows="25" cols = "45" required = "required" spellcheck="true"></textarea>
+        <br>
+        <hr style="width: 89%;">
+        <label for="Campus">Campus:</label>
+        <input type= "text" id="Campus" name="Campus" required = "required">
+
+        <button type="submit">Send name and email </button>
+        <button type="submit">Send Query</button>
+        <br/>
+        <hr/>  
+        <style>
+             input[type="email"], input[type="submit"] {
+               padding: 10px;
+               margin-bottom: 10px;
+               border: 1px solid #ccc;
+               border-radius: 5px;
+           }
+           input[type="submit"] {
+               background-color: #4CAF50;
+               color: white;
+               cursor: pointer;
+           }
+           .map {
+               width: 100%;
+               height: 400px;
+           }
+        </style>
+        <div class="container">
+            <form>
+                <label for="email">Send an email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <input type="submit" value="Submit">
+            </form>
+            <div class="map">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.6493829676565!2d27.867428276309294!3d-26.14297266148484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e959f7b7787c027%3A0xd1450a9cd56b62ed!2sCTU%20Training%20Solutions%20Roodepoort!5e0!3m2!1sen!2sza!4v1728022699147!5m2!1sen!2sza" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+ 
+    </form>
+</body>
+<footer>
+    <div class="marquee-container">
+        <marquee class="marquee-text" behavior="scroll" direction="left" scrollamount="8">
+            Welcome to the CTU-Buddy Contact Us Forum! | Talk about what matters!!
+        </marquee>
+    </div>
+    <p style="text-align: center;">© 2024 CTU. All rights reserved.</p>
+    <div style="color: #F7E7CE; text-align: center;">
+        <a href="./Home.html" style="color: #1ab6a7; margin: 0 10px;">Home</a>
+        <a href="./ShareResources.html" style="color: #1ab6a7; margin: 0 10px;">Shared Resources</a>
+        <a href="./Timetable.html" style="color: #1ab6a7; margin: 0 10px;">Timetable</a>
+        <a href="./Discussion.html" style="color: #1ab6a7; margin: 0 10px;">Discussion</a>
+        <a href="./ContactUs.html" style="color: #1ab6a7; margin: 0 10px;">Contact Us</a>
+        <a href = "./AboutUs.html" style = "color:#1ab6a7 ; margin: 0 10px;">About Us</a>
+      </div>
+</footer>
+</html>

@@ -1,0 +1,130 @@
+ .CTU {
+    margin : 10px;
+    padding: 0px;
+    width: 150px;
+ }
+ ul {
+    list-style-type: none;
+    margin: 0px;
+    text-align : right ;
+    padding: 0;
+    }
+
+    li a {
+      display: inline-block;
+      color: #2d6a90;
+      padding : 25px 20px  ;
+      text-align: center;
+      text-decoration:none;
+      font-size: medium;
+      font-weight: bold;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  li {
+   display:inline-block;
+  }
+
+  li a:hover {
+   background-color: #FFDB58;
+   border-radius: 10px;}
+
+   body {
+      background-color: #A0AFB7;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin: 0px;
+      padding: 0px;
+   
+   }
+
+
+   /*Aario added this feel free to remove*/
+   .bodyinfo {
+      margin: 7px;
+      padding: 3px;
+      background-color: #8ba0ab;
+      width: 90%;
+      border-radius: 10px;
+   }
+   
+
+   header {
+      background-color: #FFFDD0;
+
+   }
+   footer {
+      background-color: #3D405B;
+      color: #F4F1DE;
+      text-align: center;
+      padding: px;
+      position: static;
+      bottom: 0;
+      width: 100%;
+      box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .marquee-container {
+      background-color: #81B29A;
+      padding: 0px;
+      margin: 0 -20px;
+  }
+  
+  .marquee-text {
+      font-size: 20px;
+      font-weight: bold;
+      color: #3D405B;
+  }
+  a {
+      text-decoration: none;
+  
+  }
+  a:hover {
+      background-color: #FFDB58;
+      border-radius: 10px;
+      padding : 9px
+  } 
+  
+
+  .p1 {
+   color: #475033;
+   font-weight: bold;
+  }
+
+  .Read {
+   text-decoration: none;
+   color:#595f39;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+   background-color: #cce0e6;
+   border-radius: 10px;
+  }
+    .list {
+      color: rgb(227, 211, 182);
+      font-weight: bolder;
+    }
+
+    #Gif {
+
+        border-radius: 15%;
+        border: 5px solid ;
+        animation: colorChange 4s linear infinite
+        
+    }
+    @keyframes colorChange {
+        0% {
+            background-color: rgb(162, 22, 170);
+        }
+        25% {
+            background-color: yellow;
+        }
+        50% {
+            background-color: green;
+        }
+        75% {
+            background-color: blue;
+        }
+        100% {
+            background-color: red; /* Loop back to the initial color */
+        }
+    }
+    
